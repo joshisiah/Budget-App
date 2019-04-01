@@ -1,0 +1,123 @@
+body {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: table;
+  font-family: 'Sarabun', sans-serif;
+  color: #09383E;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav {
+  margin-left: 8rem;
+}
+
+.fa-hand-holding-usd {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  animation: hand 3000ms infinite;
+  transition: 300ms;
+}
+
+
+
+li a {
+  color: Black;
+  transition: 300ms;
+}
+
+.budget {
+  background-color: white;
+  width: 50rem;
+  height: 50rem;
+  float: left;
+  margin: 2rem;
+  border-radius: 2em;
+  opacity: .8;
+}
+
+.totals {
+  background-color: white;
+  width: 30rem;
+  height: 50rem;
+  float: right;
+  margin: 2rem;
+  border-radius: 2em;
+  opacity: .8;
+}
+
+.default {
+  background-color: #85ef47;
+  opacity: .6;
+}
+
+.choosePerson {
+  margin-top:70%;
+}
+
+.reset {
+  margin-top: 8rem;
+}
+
+.totalBudget {
+  color:green;
+}
+
+.amountOwed {
+  color:red;
+}
+
+.cashRemaining {
+  color:blue;
+}
+
+.totalShow {
+  border-bottom:1px solid black;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding-bottom: 5rem;
+}
+/* Hover Actions */
+.fa-hand-holding-usd:hover {
+  animation: none;
+  font-size: 2.5rem;
+  text-shadow: .2rem .2rem 10px rgba(0, 0, 0, .7);
+  transition: 300ms;
+}
+
+li a:hover {
+  color: #00bd56;
+  transition: 300ms;
+}
+
+/* Animations*/
+@keyframes hand {
+  0% {
+    color: black;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    color: black;
+    opacity: .5;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    color: black;
+  }
+}
