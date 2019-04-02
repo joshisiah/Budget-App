@@ -46,7 +46,7 @@ li a {
 
 .totals {
   background-color: white;
-  width: 30rem;
+  width: 37rem;
   height: 50rem;
   float: right;
   margin: 2rem;
@@ -83,7 +83,24 @@ li a {
   border-bottom:1px solid black;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  padding-bottom: 5rem;
+}
+
+.totalMoney {
+  font-size:4rem;
+}
+
+.fa-arrow-right, .fa-arrow-left {
+  font-size:1.5rem;
+  margin:4rem;
+  color:black;
+}
+
+.display-4 {
+  color:black;
+}
+
+.personPicker {
+  margin-top:-8rem
 }
 /* Hover Actions */
 .fa-hand-holding-usd:hover {
@@ -96,6 +113,10 @@ li a {
 li a:hover {
   color: #00bd56;
   transition: 300ms;
+}
+
+.fa-arrow-right:hover, .fa-arrow-left:hover {
+  cursor: pointer;
 }
 
 /* Animations*/
